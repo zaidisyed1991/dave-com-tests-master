@@ -13,7 +13,7 @@ To run this locally follow these steps.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/zaidisyed1991/dave-com-tests.git
+   git clone https://github.com/zaidisyed1991/dave-com-tests-master.git
    ```
 2. Install NPM packages
    ```sh
