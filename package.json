@@ -1,0 +1,21 @@
+{
+  "name": "dave-com-tests",
+  "version": "1.0.0",
+  "description": "Basic UI tests for the dave.com web application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open --config-file cypress/env/production.json",
+    "report:merge": "mochawesome-merge cypress/results/json/*.json > index.json",
+    "report:generate": "marge index.json --reportDir public --assetsDir public/assets --reportPageTitle index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^7.6.0",
+    "cypress-multi-reporters": "^1.5.0",
+    "mocha": "^9.0.1",
+    "mochawesome": "^6.2.2",
+    "mochawesome-merge": "^4.2.0",
+    "mochawesome-report-generator": "^5.2.0"
+  }
+}
