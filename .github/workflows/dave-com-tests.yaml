@@ -48,5 +48,5 @@ jobs:
           user_name: 'github-actions[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'
       - name: Report Url 
-        run: echo "https://techsavagery.github.io/dave-com-tests/index.html"
+        run: echo "https://zaidisyed1991.github.io/dave-com-tests-master/index.html"
         shell: bash
